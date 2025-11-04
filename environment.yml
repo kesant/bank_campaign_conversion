@@ -1,0 +1,17 @@
+# conda env create --file environment.yml
+name: bank_campaign_conversion
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - fs
+  - jupyter
+  - jupyterlab
+  - pathlib
+  - pip
+  - pyprojroot
+  - python=3.11
+  - pip:
+    - pyhere
+    
